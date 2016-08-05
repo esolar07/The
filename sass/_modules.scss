@@ -1,0 +1,15 @@
+
+
+
+erm_menu:not(.type-erm_menu) {
+  border-top: 0px solid transparent;
+}
+
+
+.erm_product_image{
+  margin-right: 50px;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  shape-outside: circle();
+}
