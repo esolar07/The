@@ -5,7 +5,23 @@ erm_menu:not(.type-erm_menu) {
   border-top: 0px solid transparent;
 }
 
+// mobile hamburge menu
+.btn-menu {
+  font-size: 45px;
+  background: #000;
+}
 
+
+
+.roll-button{
+  font-size: 23px;
+  line-height: 35px;
+  background-color: transparent;
+  border: 5px solid white;
+}
+
+
+// images for menu page
 .erm_product_image{
   margin-right: 50px;
   width: 225px;
