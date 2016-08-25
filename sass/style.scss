@@ -1,15 +1,19 @@
 /*
- Theme Name:   Bistro Child
+ Theme Name:   Cuban Spot Child
  Theme URI:
- Description:  Bistro Child Theme
+ Description:  Sydney Child Theme
  Author:       Eddie Solar
  Author URI:   http://eddiesolar.com
- Template:     bistro
+ Template:     sydney
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  bistro-child
+ Text Domain:  Sydney
 */
 
 @import 'base';
+
+@import 'layout';
+
+@import 'modules';
