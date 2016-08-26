@@ -1,4 +1,34 @@
 
+// variables
 
-// importing styles form bistro theme_head
+$base-font-size: 16px;                           // Base Font Size
+
+// *******mixins and functions
+
+// (converts px -> em)
+@function em($t, $c:$base-font-size){
+  @return ($t / $c) * 1em;
+}
+
+
+
+/* importing styles from sydney theme */
+
 @import url("../sydney/style.css");
+
+/* Base Styles */
+
+a{
+  &:link {
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
+  }
+  &:hover {
+    color:white;
+  }
+  &:active {
+    text-decoration: none;
+  }
+}
