@@ -1,27 +1,23 @@
 <?php
 /**
- * The template for displaying the footer.
+ * The template for displaying the footer
  *
- * Contains the closing of the #content div and all content after
+ * Contains the closing of the #content div and all content after.
  *
- * @package Sydney
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package food_truck
  */
+
 ?>
-			</div>
-		</div>
+
 	</div><!-- #content -->
 
-	<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
-		<?php get_sidebar('footer'); ?>
-	<?php endif; ?>
-
-    <a class="go-top"><i class="fa fa-angle-up"></i></a>
-
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info container">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/') ); ?>"><?php printf( __( 'Proudly powered by %s', 'sydney' ), 'WordPress' ); ?></a>
+		<div class="site-info">
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'food_truck' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'food_truck' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php bloginfo('name'); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'food_truck' ), 'food_truck', '<a href="https://automattic.com/" rel="designer">Eddie Solar</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
