@@ -17,6 +17,14 @@
  * @uses food_truck_header_style()
  */
 function food_truck_custom_header_setup() {
+	
+	add_theme_support('custom-logo', array(
+		'width' => 100,
+		'height' => 100,
+		'flex-width' => false,
+		'flex-height' => false,
+	));
+	
 	add_theme_support( 'custom-header', apply_filters( 'food_truck_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
